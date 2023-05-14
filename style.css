@@ -255,11 +255,7 @@ margin-left:2px;
     #hamcon .ptop ul li{
         padding: 10px 0px;
     }
-    #hamcon .sub-menu li{
-        display:none;
-    }
-
-
+  
     .logo{
         width:250px;
 
@@ -365,24 +361,105 @@ margin-left:2px;
 
     }
 
+    #hamcon .menu{
+        width:100%;
+    }
+
+    #hamcon .menu li:hover{
+        background:rgb(242, 233, 233);
+    }
+
     .top{
         display:flex;
         align-items:center;
     }
 
-    /* #sm1{
+    #hamcon .sub-menu{
         position:absolute;
-        margin-left:200px;
-        margin-top:-28px;
+        margin-left:190px;
+        margin-top:-30px;
         height:900px;
         width:200px;
         background:rgb(242, 233, 233);
-        padding-left:10px;
+        top:30px;
     }
 
-    #sm1{
+    #hamcon #sm1{
         display:none;
-    } */
+    }
+
+    #hamcon #m1:hover #sm1{
+        display:block;
+    }
+
+    #hamcon #sm2{
+        display:none;
+    }
+
+    #hamcon #m2:hover #sm2{
+        display:block;
+    }
+
+    #hamcon #m2:hover #sm2 .PG .sub-menu1{
+
+        display:none;
+    }
+
+    #hamcon #sm3{
+        display:none;
+    }
+
+    #hamcon #m3:hover #sm3{
+        display:block;
+    }
+
+    #hamcon #sm4{
+        display:none;
+    }
+
+    #hamcon #m4:hover #sm4{
+        display:block;
+    }
+
+    #hamcon #sm5{
+        display:none;
+    }
+
+    #hamcon #m5:hover #sm5{
+        display:block;
+    }
+
+    #hamcon #sm6{
+        display:none;
+    }
+
+    #hamcon #m6:hover #sm6{
+        display:block;
+    }
+
+    #hamcon #sm7{
+        display:none;
+    }
+
+    #hamcon #m7:hover #sm7{
+        display:block;
+    }
+
+    #hamcon #sm8{
+        display:none;
+    }
+
+    #hamcon #m8:hover #sm8{
+        display:block;
+    }
+
+    #hamcon #sm9{
+        display:none;
+    }
+
+    #hamcon #m9:hover #sm9{
+        display:block;
+    }
 
     
 }
